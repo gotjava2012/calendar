@@ -60,6 +60,12 @@ public class RegistrationService {
         return instructors.stream().filter(instructor -> instructor.getId().equalsIgnoreCase(instructorId)).findFirst();
     }
 
+    public Optional<String> returnStringMethod(){
+        Optional.ofNullable().map(x -> x.toString())
+                .orElse();
+
+    }
+
     public Optional<Student> retrieveStudent(String studentId){
         return students.stream().filter(instructor -> instructor.getId().equalsIgnoreCase(studentId)).findFirst();
     }

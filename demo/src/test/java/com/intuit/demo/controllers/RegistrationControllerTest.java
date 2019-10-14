@@ -2,7 +2,6 @@ package com.intuit.demo.controllers;
 
 import com.intuit.demo.Service.RegistrationService;
 import com.intuit.demo.model.Course;
-import com.intuit.demo.model.Instructor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -20,7 +19,7 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import java.util.Arrays;
+
 
 import static org.junit.Assert.assertEquals;
 
