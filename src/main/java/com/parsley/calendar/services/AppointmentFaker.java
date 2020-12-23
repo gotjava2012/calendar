@@ -43,13 +43,6 @@ public class AppointmentFaker {
     @Value("${appointment-faker.durationIncrementSize:5}")
     private int durationIncrementSize;
 
-    // Allow free appointments
-    @Value("${appointment-faker.minPrice:0}")
-    private int minPrice;
-
-    // A sane cap of 100
-    @Value("${appointment-faker.maxPrice:100}")
-    private int maxPrice;
 
     // If more statuses come along, we should centralize this logic that appears in three places :
     //      1) The initial Flyway schema

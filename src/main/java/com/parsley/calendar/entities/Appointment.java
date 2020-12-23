@@ -3,6 +3,7 @@ package com.parsley.calendar.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.time.ZonedDateTime;
@@ -19,7 +20,9 @@ public class Appointment {
     @Column(name = "id", updatable = false)
     private Long id;
 
-    @Column(name = "created_at", updatable = false)
+
+    @CreatedDate
+    @Column(name = "created_at", nullable = false,  updatable = false)
     private ZonedDateTime createdAt;
 
     @Column(name = "appointment_date")

@@ -74,45 +74,35 @@ curl -s 'http://localhost:8080/appointments' | jq .
     "createdAt": "2019-02-24T19:11:51.040728-05:00",
     "scheduledDate": "2019-05-05T00:08:43.487-04:00",
     "durationInMinutes": 90,
-    "doctorFullName": "Benedict Hermann",
-    "status": "Available",
-    "price": 177.37
+    "status": "Available"
   },
   {
     "id": 2,
     "createdAt": "2019-02-24T19:11:52.911455-05:00",
     "scheduledDate": "2019-08-05T23:51:16.157-04:00",
     "durationInMinutes": 50,
-    "doctorFullName": "Miss Gwyneth Hegmann",
-    "status": "Available",
-    "price": 859.68
+    "status": "Available"
   },
   {
     "id": 3,
     "createdAt": "2019-02-24T19:11:53.651012-05:00",
     "scheduledDate": "2019-03-09T04:04:42.276-05:00",
     "durationInMinutes": 85,
-    "doctorFullName": "Dia Parisian",
-    "status": "Booked",
-    "price": 684.83
+    "status": "Booked"
   },
   {
     "id": 4,
     "createdAt": "2019-02-24T19:11:54.306298-05:00",
     "scheduledDate": "2019-12-13T15:39:28.278-05:00",
     "durationInMinutes": 130,
-    "doctorFullName": "Rhett Denesik Sr.",
-    "status": "Booked",
-    "price": 479.36
+    "status": "Booked"
   },
   {
     "id": 5,
     "createdAt": "2019-02-24T19:11:54.946156-05:00",
     "scheduledDate": "2020-02-11T19:11:40.226-05:00",
     "durationInMinutes": 60,
-    "doctorFullName": "Glynda Predovic",
-    "status": "Booked",
-    "price": 398.74
+    "status": "Booked"
   }
 ]
 ```

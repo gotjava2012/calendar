@@ -31,9 +31,3 @@ INSERT INTO statuses (status)
 VALUES
   ('Available'),
   ('Booked');
-
-  INSERT INTO appointments (id, created_at, appointment_date, appointment_duration, status_id)
-  VALUES (1, NOW(), NOW() + INTERVAL 1 HOUR, 60, 'Booked');
-
-  INSERT INTO appointments (id, created_at, appointment_date, appointment_duration, status_id)
-    VALUES (2, NOW(), NOW() + INTERVAL 2 HOUR, 60, 'Available');
